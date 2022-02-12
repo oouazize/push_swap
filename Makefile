@@ -25,7 +25,7 @@ $(NAME): $(SRCS)
 	@echo "\033[1;35m▐▌ DONE ▐▌"
 	@echo " "
 
-bonus: $(BONUS)
+mychecker: $(BONUS)
 	@$(GCC) $(BONUS) -o checker
 	@echo "\033[1;36m▐▌ DONE ▐▌"
 	@echo " "
